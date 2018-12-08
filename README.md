@@ -1,4 +1,4 @@
-## kaos.sh
+## [kaos.sh](https://kaos.sh)
 
 `kaos.sh` provides simple URL's for working with ESSENTIAL KAOS repositories on GitHub.
 
