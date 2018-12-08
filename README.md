@@ -5,14 +5,14 @@
 ### Routing rules
 
 ```perl
-https://kaos.sh/{project}                  → https://github.com/essentialkaos/{project}
-https://kaos.sh/{project}.zip              → https://github.com/essentialkaos/{project}/archive/master.zip
-https://kaos.sh/{project}.tar.gz           → https://github.com/essentialkaos/{project}/archive/master.tar.gz
-https://kaos.sh/{project}/{path}           → https://raw.githubusercontent.com/essentialkaos/{project}/master/{path}
-https://kaos.sh/{project}/{commit}.zip     → https://github.com/essentialkaos/{project}/archive/{commit}.zip
-https://kaos.sh/{project}/{commit}.tar.gz  → https://github.com/essentialkaos/{project}/archive/{commit}.tar.gz
-https://kaos.sh/{project}/{version}.zip    → https://github.com/essentialkaos/{project}/archive/{version}.zip
-https://kaos.sh/{project}/{version}.tar.gz → https://github.com/essentialkaos/{project}/archive/{version}.tar.gz
+kaos.sh/{project}                  → github.com/essentialkaos/{project}
+kaos.sh/{project}.zip              → github.com/essentialkaos/{project}/archive/master.zip
+kaos.sh/{project}.tar.gz           → github.com/essentialkaos/{project}/archive/master.tar.gz
+kaos.sh/{project}/{path}           → raw.githubusercontent.com/essentialkaos/{project}/master/{path}
+kaos.sh/{project}/{commit}.zip     → github.com/essentialkaos/{project}/archive/{commit}.zip
+kaos.sh/{project}/{commit}.tar.gz  → github.com/essentialkaos/{project}/archive/{commit}.tar.gz
+kaos.sh/{project}/{version}.zip    → github.com/essentialkaos/{project}/archive/{version}.zip
+kaos.sh/{project}/{version}.tar.gz → github.com/essentialkaos/{project}/archive/{version}.tar.gz
 ```
 
 ### Examples
