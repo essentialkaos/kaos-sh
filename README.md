@@ -11,7 +11,7 @@ https://kaos.sh/{project}.tar.gz → https://github.com/essentialkaos/{project}/
 https://kaos.sh/{project}/{path} → https://raw.githubusercontent.com/essentialkaos/{project}/master/{path}
 ```
 
-# Examples
+### Examples
 
 ```bash
 # Download the latest stable version of KAOSv script
