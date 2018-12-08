@@ -5,9 +5,12 @@
 ### Routing rules
 
 `https://kaos.sh/{project}` → `https://github.com/essentialkaos/{project}`
-`https://kaos.sh/{project}.tar.gz` → `https://github.com/essentialkaos/{project}/archive/master.tar.gz`
-`https://kaos.sh/{project}.zip` → `https://github.com/essentialkaos/{project}/archive/master.zip`
+
 `https://kaos.sh/{project}/{path}` → `https://raw.githubusercontent.com/essentialkaos/{project}/master/{path}`
+
+`https://kaos.sh/{project}.zip` → `https://github.com/essentialkaos/{project}/archive/master.zip`
+
+`https://kaos.sh/{project}.tar.gz` → `https://github.com/essentialkaos/{project}/archive/master.tar.gz`
 
 # Examples
 
