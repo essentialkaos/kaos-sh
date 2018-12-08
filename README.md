@@ -15,7 +15,7 @@ kaos.sh/{project}/{version}.zip    → github.com/essentialkaos/{project}/archiv
 kaos.sh/{project}/{version}.tar.gz → github.com/essentialkaos/{project}/archive/{version}.tar.gz
 ```
 
-### Examples
+### Usage examples
 
 ```bash
 # Download the latest stable version of KAOSv script
@@ -30,6 +30,11 @@ curl -o rpmbuilder.tgz https://kaos.sh/rpmbuilder.tar.gz
 ```bash
 # Download version 2.2.1 of RPMBuilder sources as .zip file
 curl -o rpmbuilder-2.2.1.zip https://kaos.sh/rpmbuilder/v2.2.1.zip
+```
+
+```bash
+# Pack ek package sources using GoPack without utility installation
+bash <(curl -fsSL https://kaos.sh/gopack/SOURCES/gopack) -t v10.0.1 pkg.re/essentialkaos/ek.v10
 ```
 
 ```bash
