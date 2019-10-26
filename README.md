@@ -13,6 +13,7 @@ kaos.sh/{project}/{commit}.zip     → github.com/essentialkaos/{project}/archiv
 kaos.sh/{project}/{commit}.tar.gz  → github.com/essentialkaos/{project}/archive/{commit}.tar.gz
 kaos.sh/{project}/{version}.zip    → github.com/essentialkaos/{project}/archive/{version}.zip
 kaos.sh/{project}/{version}.tar.gz → github.com/essentialkaos/{project}/archive/{version}.tar.gz
+kaos.sh/{project}/w/{name}         → github.com/essentialkaos/{project}/wiki/{name}
 ```
 
 ### Usage examples
@@ -40,6 +41,11 @@ bash <(curl -fsSL https://kaos.sh/gopack/SOURCES/gopack) -t v10.0.1 pkg.re/essen
 ```bash
 # Open page of SSLScan repository in Firefox
 firefox https://kaos.sh/sslscan
+```
+
+```bash
+# Open wiki page with RPMBuilder article in Firefox
+firefox https://kaos.sh/rpmbuilder/w/Automatic-SHA-512-checksum-generation
 ```
 
 ### License
