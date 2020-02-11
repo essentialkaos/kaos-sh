@@ -14,6 +14,9 @@ kaos.sh/{project}/{commit}.tar.gz  → github.com/essentialkaos/{project}/archiv
 kaos.sh/{project}/{version}.zip    → github.com/essentialkaos/{project}/archive/{version}.zip
 kaos.sh/{project}/{version}.tar.gz → github.com/essentialkaos/{project}/archive/{version}.tar.gz
 kaos.sh/{project}/w/{name}         → github.com/essentialkaos/{project}/wiki/{name}
+kaos.sh/{project}/p/{id}           → github.com/essentialkaos/{project}/pull/{name}
+kaos.sh/{project}/i/{id}           → github.com/essentialkaos/{project}/issue/{name}
+kaos.sh/{project}/r/{tag}          → github.com/essentialkaos/{project}/releases/tag/{tag}
 ```
 
 ### Usage examples
