@@ -17,6 +17,7 @@ kaos.sh/{project}/w/{name}         → github.com/essentialkaos/{project}/wiki/{
 kaos.sh/{project}/p/{id}           → github.com/essentialkaos/{project}/pull/{name}
 kaos.sh/{project}/i/{id}           → github.com/essentialkaos/{project}/issue/{name}
 kaos.sh/{project}/r/{tag}          → github.com/essentialkaos/{project}/releases/tag/{tag}
+kaos.sh/g/{project}.{tag}          → godoc.org/pkg.re/essentialkaos/{project}.{tag}
 ```
 
 ### Usage examples
