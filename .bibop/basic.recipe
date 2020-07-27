@@ -1,0 +1,31 @@
+# Bibop recipe for kaos.sh
+# See more: https://kaos.sh/bibop
+
+fast-finish yes
+
+var host https://kaos.sh
+var project perfecto
+var commit ed553c33898052b795e17477ebb798e803e7229f
+var tag v3.6.1
+
+command "-" "Check basic redirects"
+  http-status GET {host}/{project} 200
+  http-status GET {host}/{project}/README.md 200
+
+command "-" "Check redirects to archives"
+  http-status GET {host}/{project}.zip 200
+  http-status GET {host}/{project}.tar.gz 200
+  http-status GET {host}/{project}/{commit}.zip 200
+  http-status GET {host}/{project}/{commit}.tar.gz 200
+  http-status GET {host}/{project}/{tag}.zip 200
+  http-status GET {host}/{project}/{tag}.tar.gz 200
+
+command "-" "Check redirects to project resources"
+  http-status GET {host}/ek/i/114 200
+  http-status GET {host}/{project}/w/Home 200
+  http-status GET {host}/{project}/r/{tag} 200
+  
+command "-" "Check redirects to external sites"
+  http-status GET {host}/g/ek.v12 200
+  http-status GET {host}/t/ek 200
+  http-status GET {host}/c/ek 200
