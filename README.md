@@ -1,6 +1,6 @@
 ## [kaos.sh](https://kaos.sh)
 
-`kaos.sh` provides simple URL's for working with ESSENTIAL KAOS repositories on GitHub.
+`kaos.sh` provides simple URL's for working with ESSENTIAL KAOS repositories on GitHub, Travis CI and Coveralls.
 
 ### Routing rules
 
@@ -18,7 +18,7 @@ kaos.sh/{project}/p/{id}           → github.com/essentialkaos/{project}/pull/{
 kaos.sh/{project}/i/{id}           → github.com/essentialkaos/{project}/issue/{name}
 kaos.sh/{project}/r/{tag}          → github.com/essentialkaos/{project}/releases/tag/{tag}
 kaos.sh/g/{project}.{tag}          → godoc.org/pkg.re/essentialkaos/{project}.{tag}
-kaos.sh/t/{project}                → travis-ci.com/github/essentialkaos/{project}
+kaos.sh/t/{project}                → travis-ci.com/essentialkaos/{project}
 kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{project}
 ```
 
