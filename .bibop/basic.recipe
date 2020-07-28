@@ -26,6 +26,7 @@ command "-" "Check redirects to project resources"
   http-status GET {host}/{project}/r/{tag} 200
   
 command "-" "Check redirects to external sites"
+  http-status GET {host}/d/{project} 200
   http-status GET {host}/g/ek.v12 200
   http-status GET {host}/t/ek 200
   http-status GET {host}/c/ek 200

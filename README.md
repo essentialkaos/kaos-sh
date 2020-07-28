@@ -20,6 +20,7 @@ kaos.sh/{project}/r/{tag}          → github.com/essentialkaos/{project}/releas
 kaos.sh/g/{project}.{tag}          → godoc.org/pkg.re/essentialkaos/{project}.{tag}
 kaos.sh/t/{project}                → travis-ci.com/essentialkaos/{project}
 kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{project}
+kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
 ```
 
 ### Usage examples
