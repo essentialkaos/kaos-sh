@@ -1,6 +1,6 @@
 ## [kaos.sh](https://kaos.sh)
 
-`kaos.sh` provides simple URL's for working with ESSENTIAL KAOS repositories on GitHub, Travis CI and Coveralls.
+`kaos.sh` provides simple URL's for working with ESSENTIAL KAOS repositories on GitHub, Travis CI, Coveralls and Docker Hub.
 
 ### Routing rules
 
