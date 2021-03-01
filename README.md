@@ -6,6 +6,7 @@
 
 ```perl
 kaos.sh/{project}                  → github.com/essentialkaos/{project}
+kaos.sh/{project}.git              → github.com/essentialkaos/{project}.git
 kaos.sh/{project}.zip              → github.com/essentialkaos/{project}/archive/master.zip
 kaos.sh/{project}.tar.gz           → github.com/essentialkaos/{project}/archive/master.tar.gz
 kaos.sh/{project}/{path}           → raw.githubusercontent.com/essentialkaos/{project}/master/{path}
@@ -26,6 +27,11 @@ kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
 ```
 
 ### Usage examples
+
+```bash
+# Clone repository
+git clone https://kaos.sh/kaos-repo.git
+```
 
 ```bash
 # Download the latest stable version of KAOSv script
