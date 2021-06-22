@@ -19,6 +19,7 @@ kaos.sh/{project}/p/{id}           → github.com/essentialkaos/{project}/pull/{
 kaos.sh/{project}/i/{id}           → github.com/essentialkaos/{project}/issue/{name}
 kaos.sh/{project}/r/{tag}          → github.com/essentialkaos/{project}/releases/tag/{tag}
 kaos.sh/a/{project}                → github.com/essentialkaos/{project}/actions
+kaos.sh/b/{project}                → codebeat.co/projects/github-com-essentialkaos-{project}
 kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{project}
 kaos.sh/c/{project}.svg            → coveralls.io/repos/github/essentialkaos/{project}/badge.svg
 kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
