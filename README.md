@@ -18,14 +18,15 @@ kaos.sh/{project}/w/{name}         → github.com/essentialkaos/{project}/wiki/{
 kaos.sh/{project}/p/{id}           → github.com/essentialkaos/{project}/pull/{name}
 kaos.sh/{project}/i/{id}           → github.com/essentialkaos/{project}/issue/{name}
 kaos.sh/{project}/r/{tag}          → github.com/essentialkaos/{project}/releases/tag/{tag}
-kaos.sh/g/{project}.{tag}          → pkg.re/essentialkaos/{project}.{tag}?docs
 kaos.sh/a/{project}                → github.com/essentialkaos/{project}/actions
-kaos.sh/w/{project}/{workflow}     → github.com/essentialkaos/{project}/actions?query=workflow:{workflow}
-kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/workflows/{workflow}/badge.svg
+kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{project}
+kaos.sh/c/{project}.svg            → coveralls.io/repos/github/essentialkaos/{project}/badge.svg
+kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
+kaos.sh/g/{project}.{tag}          → pkg.re/essentialkaos/{project}.{tag}?docs
 kaos.sh/r/{project}                → goreportcard.com/report/github.com/essentialkaos/{project}
 kaos.sh/r/{project}.svg            → goreportcard.com/badge/github.com/essentialkaos/{project}
-kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{project}
-kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
+kaos.sh/w/{project}/{workflow}     → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml
+kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml/badge.svg
 ```
 
 ### Usage examples
