@@ -22,6 +22,8 @@ kaos.sh/g/{project}.{tag}          → pkg.re/essentialkaos/{project}.{tag}?docs
 kaos.sh/a/{project}                → github.com/essentialkaos/{project}/actions
 kaos.sh/w/{project}/{workflow}     → github.com/essentialkaos/{project}/actions?query=workflow:{workflow}
 kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/workflows/{workflow}/badge.svg
+kaos.sh/r/{project}                → goreportcard.com/report/github.com/essentialkaos/{project}
+kaos.sh/r/{project}.svg            → goreportcard.com/badge/github.com/essentialkaos/{project}
 kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{project}
 kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
 ```
