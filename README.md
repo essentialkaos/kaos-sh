@@ -45,7 +45,7 @@ kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/action
 </p>
 ```
 
-```md
+```markdown
 ### Build Status
 
 | Branch | Status |
