@@ -32,6 +32,28 @@ kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/action
 
 ### Usage examples
 
+
+```html
+<p align="center">
+  <a href="https://kaos.sh/g/app.v3"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev"></a>
+  <a href="https://kaos.sh/w/app/ci"><img src="https://kaos.sh/w/app/ci.svg" alt="GitHub Actions CI Status" /></a>
+  <a href="https://kaos.sh/r/app"><img src="https://kaos.sh/r/app.svg" alt="GoReportCard" /></a>
+  <a href="https://kaos.sh/c/app"><img src="https://kaos.sh/c/app.svg" alt="Coverage Status" /></a>
+  <a href="https://kaos.sh/b/app"><img src="https://codebeat.co/badges/00000000-0000-0000-0000-000000000000" alt="Codebeat badge" /></a>
+  <a href="https://kaos.sh/w/app/codeql"><img src="https://kaos.sh/w/app/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
+  <a href="#license"><img src="https://gh.kaos.st/apache2.svg"></a>
+</p>
+```
+
+```md
+### Build Status
+
+| Branch | Status |
+|--------|----------|
+| `master` | [![CI](https://kaos.sh/w/app/ci.svg?branch=master)](https://kaos.sh/w/app/ci?query=branch:master) |
+| `develop` | [![CI](https://kaos.sh/w/app/ci.svg?branch=develop)](https://kaos.sh/w/app/ci?query=branch:develop) |
+```
+
 ```bash
 # Clone repository
 git clone https://kaos.sh/kaos-repo.git
