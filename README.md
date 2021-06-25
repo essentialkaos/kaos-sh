@@ -35,7 +35,7 @@ kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/action
 
 ```html
 <p align="center">
-  <a href="https://kaos.sh/g/app.v3"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev"></a>
+  <a href="https://kaos.sh/g/app.v3"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev" /></a>
   <a href="https://kaos.sh/w/app/ci"><img src="https://kaos.sh/w/app/ci.svg" alt="GitHub Actions CI Status" /></a>
   <a href="https://kaos.sh/r/app"><img src="https://kaos.sh/r/app.svg" alt="GoReportCard" /></a>
   <a href="https://kaos.sh/c/app"><img src="https://kaos.sh/c/app.svg" alt="Coverage Status" /></a>
