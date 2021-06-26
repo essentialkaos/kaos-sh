@@ -19,7 +19,8 @@ kaos.sh/{project}/p/{id}           → github.com/essentialkaos/{project}/pull/{
 kaos.sh/{project}/i/{id}           → github.com/essentialkaos/{project}/issue/{name}
 kaos.sh/{project}/r/{tag}          → github.com/essentialkaos/{project}/releases/tag/{tag}
 kaos.sh/a/{project}                → github.com/essentialkaos/{project}/actions
-kaos.sh/b/{project}                → codebeat.co/projects/github-com-essentialkaos-{project}
+kaos.sh/b/{project}                → codebeat.co/projects/github-com-essentialkaos-{project}-master
+kaos.sh/b/{uuid}.svg               → codebeat.co/badges/{uuid}
 kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{project}
 kaos.sh/c/{project}.svg            → coveralls.io/repos/github/essentialkaos/{project}/badge.svg
 kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
@@ -39,7 +40,7 @@ kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/action
   <a href="https://kaos.sh/w/app/ci"><img src="https://kaos.sh/w/app/ci.svg" alt="GitHub Actions CI Status" /></a>
   <a href="https://kaos.sh/r/app"><img src="https://kaos.sh/r/app.svg" alt="GoReportCard" /></a>
   <a href="https://kaos.sh/c/app"><img src="https://kaos.sh/c/app.svg" alt="Coverage Status" /></a>
-  <a href="https://kaos.sh/b/app"><img src="https://codebeat.co/badges/00000000-0000-0000-0000-000000000000" alt="Codebeat badge" /></a>
+  <a href="https://kaos.sh/b/app"><img src="https://kaos.sh/b/00000000-0000-0000-0000-000000000000.svg" alt="Codebeat badge" /></a>
   <a href="https://kaos.sh/w/app/codeql"><img src="https://kaos.sh/w/app/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
   <a href="#license"><img src="https://gh.kaos.st/apache2.svg"></a>
 </p>
