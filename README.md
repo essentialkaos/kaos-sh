@@ -5,7 +5,7 @@
 ### Routing rules
 
 ```perl
-kaos.sh/{project}                  → github.com/essentialkaos/{project}
+kaos.sh/{project}                  → github.com/essentialkaos/{project}#readme
 kaos.sh/{project}.git              → github.com/essentialkaos/{project}.git
 kaos.sh/{project}.zip              → github.com/essentialkaos/{project}/archive/master.zip
 kaos.sh/{project}.tar.gz           → github.com/essentialkaos/{project}/archive/master.tar.gz
