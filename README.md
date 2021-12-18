@@ -59,6 +59,8 @@ kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/action
 ```bash
 # Clone repository
 git clone https://kaos.sh/kaos-repo.git
+# or
+git clone https://kaos.sh/kaos-repo
 ```
 
 ```bash
