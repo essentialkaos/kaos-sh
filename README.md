@@ -10,6 +10,7 @@ kaos.sh/{project}.git              → github.com/essentialkaos/{project}.git
 kaos.sh/{project}.zip              → github.com/essentialkaos/{project}/archive/master.zip
 kaos.sh/{project}.tar.gz           → github.com/essentialkaos/{project}/archive/master.tar.gz
 kaos.sh/{project}/{path}           → raw.githubusercontent.com/essentialkaos/{project}/master/{path}
+kaos.sh/{project}/:{branch}/{path} → raw.githubusercontent.com/essentialkaos/{project}/{branch}/{path}
 kaos.sh/{project}/{commit}.zip     → github.com/essentialkaos/{project}/archive/{commit}.zip
 kaos.sh/{project}/{commit}.tar.gz  → github.com/essentialkaos/{project}/archive/{commit}.tar.gz
 kaos.sh/{project}/{version}.zip    → github.com/essentialkaos/{project}/archive/{version}.zip
