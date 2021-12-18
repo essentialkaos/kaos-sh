@@ -67,6 +67,8 @@ git clone https://kaos.sh/kaos-repo
 ```bash
 # Download the latest stable version of KAOSv script
 wget https://kaos.sh/kaosv/SOURCES/kaosv
+# Download unstable version (from develop branch) of KAOSv script
+wget https://kaos.sh/kaosv/:develop/SOURCES/kaosv
 ```
 
 ```bash
