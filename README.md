@@ -29,6 +29,7 @@ kaos.sh/g/{project}.{tag}          → pkg.re/essentialkaos/{project}.{tag}?docs
 kaos.sh/r/{project}                → goreportcard.com/report/github.com/essentialkaos/{project}
 kaos.sh/r/{project}.svg            → goreportcard.com/badge/github.com/essentialkaos/{project}
 kaos.sh/r/{project}.{tag}.svg      → goreportcard.com/badge/pkg.re/essentialkaos/{project}.{tag}
+kaos.sh/v/{project}.svg            → github-readme-stats.vercel.app/api/pin/?username=essentialkaos&repo={project}
 kaos.sh/w/{project}/{workflow}     → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml
 kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml/badge.svg
 ```
