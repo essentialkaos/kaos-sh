@@ -7,6 +7,7 @@
 ```perl
 kaos.sh/{project}                  → github.com/essentialkaos/{project}#readme
 kaos.sh/{project}.git              → github.com/essentialkaos/{project}.git
+kaos.sh/{project}:{id}             → github.com/essentialkaos/{project}/{pull|issue}/{name}
 kaos.sh/{project}.zip              → github.com/essentialkaos/{project}/archive/master.zip
 kaos.sh/{project}.tar.gz           → github.com/essentialkaos/{project}/archive/master.tar.gz
 kaos.sh/{project}/{path}           → raw.githubusercontent.com/essentialkaos/{project}/master/{path}
@@ -16,8 +17,8 @@ kaos.sh/{project}/{commit}.tar.gz  → github.com/essentialkaos/{project}/archiv
 kaos.sh/{project}/{version}.zip    → github.com/essentialkaos/{project}/archive/{version}.zip
 kaos.sh/{project}/{version}.tar.gz → github.com/essentialkaos/{project}/archive/{version}.tar.gz
 kaos.sh/{project}/w/{name}         → github.com/essentialkaos/{project}/wiki/{name}
-kaos.sh/{project}/p/{id}           → github.com/essentialkaos/{project}/pull/{name}
-kaos.sh/{project}/i/{id}           → github.com/essentialkaos/{project}/issue/{name}
+kaos.sh/{project}/p/{id}           → github.com/essentialkaos/{project}/pull/{id}
+kaos.sh/{project}/i/{id}           → github.com/essentialkaos/{project}/issue/{id}
 kaos.sh/{project}/r/{tag}          → github.com/essentialkaos/{project}/releases/tag/{tag}
 kaos.sh/a/{project}                → github.com/essentialkaos/{project}/actions
 kaos.sh/b/{project}                → codebeat.co/projects/github-com-essentialkaos-{project}-master
