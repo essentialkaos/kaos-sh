@@ -26,10 +26,9 @@ kaos.sh/b/{uuid}.svg               → codebeat.co/badges/{uuid}
 kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{project}
 kaos.sh/c/{project}.svg            → coveralls.io/repos/github/essentialkaos/{project}/badge.svg
 kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
-kaos.sh/g/{project}.{tag}          → pkg.re/essentialkaos/{project}.{tag}?docs
+kaos.sh/g/{project}                → pkg.go.dev/github.com/essentialkaos/{project}
 kaos.sh/r/{project}                → goreportcard.com/report/github.com/essentialkaos/{project}
 kaos.sh/r/{project}.svg            → goreportcard.com/badge/github.com/essentialkaos/{project}
-kaos.sh/r/{project}.{tag}.svg      → goreportcard.com/badge/pkg.re/essentialkaos/{project}.{tag}
 kaos.sh/v/{project}.svg            → github-readme-stats.vercel.app/api/pin/?username=essentialkaos&repo={project}
 kaos.sh/w/{project}/{workflow}     → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml
 kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml/badge.svg
@@ -40,11 +39,11 @@ kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/action
 
 ```html
 <p align="center">
-  <a href="https://kaos.sh/g/app.v3"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev" /></a>
+  <a href="https://kaos.sh/g/app"><img src="https://gh.kaos.st/godoc.svg" alt="PkgGoDev" /></a>
   <a href="https://kaos.sh/w/app/ci"><img src="https://kaos.sh/w/app/ci.svg" alt="GitHub Actions CI Status" /></a>
   <a href="https://kaos.sh/r/app"><img src="https://kaos.sh/r/app.svg" alt="GoReportCard" /></a>
   <a href="https://kaos.sh/c/app"><img src="https://kaos.sh/c/app.svg" alt="Coverage Status" /></a>
-  <a href="https://kaos.sh/b/app"><img src="https://kaos.sh/b/00000000-0000-0000-0000-000000000000.svg" alt="Codebeat badge" /></a>
+  <a href="https://kaos.sh/b/app"><img src="https://kaos.sh/b/caf0febf-26ae-467c-8237-a6561966d70e.svg" alt="Codebeat badge" /></a>
   <a href="https://kaos.sh/w/app/codeql"><img src="https://kaos.sh/w/app/codeql.svg" alt="GitHub Actions CodeQL Status" /></a>
   <a href="#license"><img src="https://gh.kaos.st/apache2.svg"></a>
 </p>
@@ -85,7 +84,7 @@ curl -o rpmbuilder-2.2.1.zip https://kaos.sh/rpmbuilder/v2.2.1.zip
 
 ```bash
 # Pack ek package sources using GoPack without utility installation
-bash <(curl -fsSL https://kaos.sh/gopack/SOURCES/gopack) -t v10.0.1 pkg.re/essentialkaos/ek.v10
+bash <(curl -fsSL https://kaos.sh/gopack/SOURCES/gopack) -t v10.0.1 github.com/essentialkaos/ek
 ```
 
 ```bash
