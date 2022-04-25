@@ -8,6 +8,7 @@
 kaos.sh/{project}                  → github.com/essentialkaos/{project}#readme
 kaos.sh/{project}.git              → github.com/essentialkaos/{project}.git
 kaos.sh/{project}:{id}             → github.com/essentialkaos/{project}/{pull|issue}/{id}
+kaos.sh/{project}:{branch}         → github.com/essentialkaos/{project}/tree/{branch}#readme
 kaos.sh/{project}.zip              → github.com/essentialkaos/{project}/archive/master.zip
 kaos.sh/{project}.tar.gz           → github.com/essentialkaos/{project}/archive/master.tar.gz
 kaos.sh/{project}/{path}           → raw.githubusercontent.com/essentialkaos/{project}/master/{path}
