@@ -30,6 +30,7 @@ kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
 kaos.sh/g/{project}                → pkg.go.dev/github.com/essentialkaos/{project}
 kaos.sh/r/{project}                → goreportcard.com/report/github.com/essentialkaos/{project}
 kaos.sh/r/{project}.svg            → goreportcard.com/badge/github.com/essentialkaos/{project}
+kaos.sh/p/{project}                → github.com/essentialkaos/{project}/pkgs/container/{project}
 kaos.sh/v/{project}.svg            → github-readme-stats.vercel.app/api/pin/?username=essentialkaos&repo={project}
 kaos.sh/w/{project}/{workflow}     → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml
 kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml/badge.svg
