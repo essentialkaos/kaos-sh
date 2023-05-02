@@ -12,7 +12,7 @@ kaos.sh/{project}:{branch}         → github.com/essentialkaos/{project}/tree/{
 kaos.sh/{project}.zip              → github.com/essentialkaos/{project}/archive/refs/heads/master.zip
 kaos.sh/{project}.tar.gz           → github.com/essentialkaos/{project}/archive/refs/heads/master.tar.gz
 kaos.sh/{project}/{path}           → raw.githubusercontent.com/essentialkaos/{project}/master/{path}
-kaos.sh/{project}:{branch}/{path} → raw.githubusercontent.com/essentialkaos/{project}/{branch}/{path}
+kaos.sh/{project}:{branch}/{path}  → raw.githubusercontent.com/essentialkaos/{project}/{branch}/{path}
 kaos.sh/{project}/{commit}.zip     → github.com/essentialkaos/{project}/archive/{commit}.zip
 kaos.sh/{project}/{commit}.tar.gz  → github.com/essentialkaos/{project}/archive/{commit}.tar.gz
 kaos.sh/{project}/{version}.zip    → github.com/essentialkaos/{project}/archive/refs/tags/v{version}.zip
@@ -28,6 +28,8 @@ kaos.sh/c/{project}                → coveralls.io/github/essentialkaos/{projec
 kaos.sh/c/{project}.svg            → coveralls.io/repos/github/essentialkaos/{project}/badge.svg
 kaos.sh/d/{project}                → hub.docker.com/r/essentialkaos/{project}
 kaos.sh/g/{project}                → pkg.go.dev/github.com/essentialkaos/{project}
+kaos.sh/l/{id}.svg                 → api.codeclimate.com/v1/badges/{id}/maintainability
+kaos.sh/l/{project}                → codeclimate.com/github/essentialkaos/{project}/maintainability
 kaos.sh/r/{project}                → goreportcard.com/report/github.com/essentialkaos/{project}
 kaos.sh/r/{project}.svg            → goreportcard.com/badge/github.com/essentialkaos/{project}
 kaos.sh/p/{project}                → github.com/essentialkaos/{project}/pkgs/container/{project}
