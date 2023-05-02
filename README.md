@@ -31,7 +31,9 @@ kaos.sh/g/{project}                → pkg.go.dev/github.com/essentialkaos/{proj
 kaos.sh/l/{id}.svg                 → api.codeclimate.com/v1/badges/{id}/maintainability
 kaos.sh/l/{project}                → codeclimate.com/github/essentialkaos/{project}/maintainability
 kaos.sh/r/{project}                → goreportcard.com/report/github.com/essentialkaos/{project}
+kaos.sh/r/{project}.{version}      → goreportcard.com/report/github.com/essentialkaos/{project}/{version}
 kaos.sh/r/{project}.svg            → goreportcard.com/badge/github.com/essentialkaos/{project}
+kaos.sh/r/{project}.{version}.svg  → goreportcard.com/badge/github.com/essentialkaos/{project}/{version}
 kaos.sh/p/{project}                → github.com/essentialkaos/{project}/pkgs/container/{project}
 kaos.sh/v/{project}.svg            → github-readme-stats.vercel.app/api/pin/?username=essentialkaos&repo={project}
 kaos.sh/w/{project}/{workflow}     → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml
