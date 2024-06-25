@@ -1,6 +1,6 @@
 ## [kaos.sh](https://kaos.sh)
 
-`kaos.sh` provides simple URL's for working with ESSENTIAL KAOS repositories on GitHub, Coveralls and Docker Hub.
+`kaos.sh` provides simple URL's for ESSENTIAL KAOS projects.
 
 ### Routing rules
 
@@ -39,6 +39,8 @@ kaos.sh/p/{project}                → github.com/essentialkaos/{project}/pkgs/c
 kaos.sh/v/{project}.svg            → github-readme-stats.vercel.app/api/pin/?username=essentialkaos&repo={project}
 kaos.sh/w/{project}/{workflow}     → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml
 kaos.sh/w/{project}/{workflow}.svg → github.com/essentialkaos/{project}/actions/workflows/{workflow}.yml/badge.svg
+kaos.sh/y/{uuid}.svg               → app.codacy.com/project/badge/Grade/{uuid}
+kaos.sh/y/{project}                → app.codacy.com/gh/essentialkaos/{project}/dashboard
 ```
 
 ### Usage examples
