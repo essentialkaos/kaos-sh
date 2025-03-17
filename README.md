@@ -1,4 +1,4 @@
-## [kaos.sh](https://kaos.sh)
+## [kaos.sh](https://kaos.sh)ortcut
 
 `kaos.sh` provides simple URL's for ESSENTIAL KAOS projects.
 
